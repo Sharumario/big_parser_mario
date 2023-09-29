@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "big-parser-mario"
+version = "0.1.0"
+description = ""
+authors = ["Марат Шайхнисламов <sharumario@mail.ru>"]
+readme = "README.md"
+packages = [{include = "big_parser_mario"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+tk = "^0.1.0"
+bs4 = "^0.0.1"
+requests-cache = "^1.1.0"
+lxml = "^4.9.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
